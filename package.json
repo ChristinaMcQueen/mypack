@@ -1,0 +1,19 @@
+{
+  "name": "mypack",
+  "version": "1.0.0",
+  "description": "mypack",
+  "main": "index.js",
+  "author": "ChristinaMcQueen",
+  "license": "MIT",
+  "bin": {
+    "mypack": "./bin/mypack.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.6.2",
+    "@babel/traverse": "^7.6.2",
+    "@babel/types": "^7.6.1",
+    "babylon": "^6.18.0",
+    "ejs": "^2.7.1",
+    "tapable": "^1.1.3"
+  }
+}
